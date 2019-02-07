@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/share_48px"
+        android:drawableStart="@drawable/share_48px"
+        android:text="Remove From Favourites"
+        android:textSize="20sp"
+        android:drawablePadding="16dp"
+        android:padding="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="#80000000"
+        android:alpha="0.2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/cancel_48px"
+        android:drawableStart="@drawable/cancel_48px"
+        android:text="Delete"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:drawablePadding="16dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="#80000000"
+        android:padding="5dp"
+        android:alpha="0.2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/create_new_52px"
+        android:drawableStart="@drawable/create_new_52px"
+        android:text="Edit"
+        android:textSize="20sp"
+        android:drawablePadding="16dp"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="#80000000"
+        android:alpha="0.2"/>
+
+</LinearLayout>

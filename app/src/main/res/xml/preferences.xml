@@ -1,0 +1,161 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="General Settings">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="display_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Display Name"
+        android:icon="@drawable/name_filled_50px"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/fit_to_width_48px"
+        android:key="pref_key_fullscreen"
+        android:summaryOff="@string/pref_fullscreen_summary"
+        android:summaryOn="@string/pref_fullscreen_summary_on"
+        android:title="@string/pref_fullscreen_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_key_screen"
+        android:summaryOff="This option prevents your device from turning off while in then app. Enabling this option may affect your battery"
+        android:summaryOn="@string/pref_screenon_summary_on"
+        android:title="@string/pref_screenon_title" />
+
+</PreferenceCategory>
+
+<PreferenceCategory
+    android:key="pref_key_title2"
+    android:title="@string/pref_title2">
+
+    <PreferenceScreen
+        android:key="pref_key_preference"
+        android:icon="@drawable/paper_windmill_filled_50px"
+        android:summary="@string/pref_animation_summary"
+        android:title="@string/pref_animation_title">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_enable_anim_key"
+            android:summaryOff="@string/pref_enable_animation_summary_off"
+            android:summaryOn="@string/pref_enable_animation_summary_on"
+            android:title="@string/pref_enable_animation_title" />
+
+        <ListPreference
+            android:defaultValue="43"
+            android:dependency="pref_enable_anim_key"
+            android:dialogIcon="@android:drawable/ic_menu_rotate"
+            android:dialogTitle="@string/pref_choose_anim_dialog"
+            android:entries="@array/animation_array"
+            android:entryValues="@array/animation_values"
+            android:icon="@drawable/spinner_frame_1_48px"
+            android:key="pref_choose_key"
+
+            android:title="@string/pref_choose_anim" />
+
+    </PreferenceScreen>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_key_keyguard"
+        android:icon="@drawable/knight_shield_filled_50px"
+        android:summaryOff="@string/pref_keyguard_summary"
+        android:summaryOn="@string/pref_keyguard_summary_On"
+        android:title="@string/pref_keyguard_title" />
+    <SwitchPreference
+        android:icon="@drawable/privacy_filled_50px"
+        android:defaultValue="false"
+        android:key="pref_key_secure"
+        android:summaryOff="@string/pref_secure_summary"
+        android:summaryOn="@string/pref_secure_summary_on"
+        android:title="@string/pref_secure_title" />
+
+    <PreferenceScreen android:title="@string/pref_header_notifications"
+        android:icon="@drawable/google_alerts_filled_50px">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notification_reminder_complete"
+            android:title="@string/pref_notification_reminder_complete" />
+
+        <RingtonePreference
+            android:defaultValue="content//settings//system//notification_sounds"
+            android:dependency="notification_reminder_complete"
+            android:key="notification_reminder_complete_ringtone"
+            android:ringtoneType="notification"
+            android:title="@string/pref_title_ringtone"
+            android:icon="@drawable/music_48px"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="notification_reminder_complete"
+            android:key="notification_reminder_complete_vibrate"
+            android:title="@string/pref_title_vibrate"
+            android:icon="@drawable/shake_phone_filled_50px"/>
+        <ListPreference
+            android:defaultValue="5"
+            android:dependency="notification_reminder_complete"
+            android:entries="@array/pref_snooze_interval_titles"
+            android:entryValues="@array/pref_snooze_interval_values"
+            android:key="snooze_frequency"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:icon="@drawable/synchronize_52px"/>
+
+    </PreferenceScreen>
+
+
+</PreferenceCategory>
+
+<PreferenceCategory android:title="ADVANCE SETTINGS">
+
+    <PreferenceScreen android:title="Data &amp; Sync"
+        android:icon="@drawable/synchronize_52px">
+        <ListPreference
+            android:defaultValue="180"
+            android:entries="@array/pref_sync_frequency_titles"
+            android:entryValues="@array/pref_sync_frequency_values"
+            android:key="sync_frequency"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_sync_frequency"
+            android:icon="@drawable/data_in_both_directions_52px"/>
+
+        <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+             design guidelines. -->
+        <Preference android:title="@string/pref_title_system_sync_settings"
+            android:icon="@drawable/settings_3_52px">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </Preference>
+    </PreferenceScreen>
+
+</PreferenceCategory>
+
+<PreferenceCategory android:title="LOOK AND FEEL">
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_look_and_feel"
+        android:entryValues="@array/pref_look_and_feel_values"
+        android:icon="@drawable/change_theme_filled_50px"
+        android:key="customize_app_theme"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="@null"
+        android:title="Customize the look and feel" />
+</PreferenceCategory>
+
+<PreferenceCategory
+    android:key="pref_key_title3"
+    android:title="ABOUT">
+
+    <Preference
+        android:icon="@drawable/info_52px"
+        android:key="pref_key_about"
+        android:title="About App">
+
+    </Preference>
+
+</PreferenceCategory>
+</PreferenceScreen>

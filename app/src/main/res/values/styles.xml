@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+
+        <item name="navigationIcon">@drawable/back_arrow</item>
+        <item name="navigationContentDescription">@string/nav_description</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="DarkTheme" parent="Base.Theme.AppCompat">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="colorPrimary">@color/colorAccentDark</item>
+    <item name="titleTextColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarSettings">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="DarkThemeSettings" parent="Base.Theme.AppCompat">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">@color/colorAccentDark</item>'
+        <item name="titleTextColor">@color/colorAccent</item>
+        
+    </style>
+    <style name="MaterialDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#8FD400</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="TitleDialogTextStyle" parent="Base.DialogWindowTitle.AppCompat">
+
+        <item name="android:textColor">#d71616</item>
+        <item name="android:icon">@drawable/ic_android_24dp</item>
+    </style>
+
+
+    <style name="MaterailDiag" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#5fa3d0</item>
+
+        <item name="android:windowTitleStyle">@style/TitleDialogTextStyle</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,303 @@
+<resources>
+    <string name="app_name">Life Reminder </string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_list">No reminders, press on the +(Add) button to create one</string>
+    <string name="empty_list2">No Completed Reminders</string>
+    <string name="completed">Show Completed</string>
+    <string name="create_rem">Create Reminder</string>
+    <string name="del_all">Delete all reminders</string>
+    <string name="del">Delete</string>
+    <string name="dialog_title">Please enter the location:</string>
+    <string name="dialog_error_title">Enter a valid location:</string>
+    <string name="dialog_positive">Find</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="dialog_hint">location</string>
+    <string name="rem_location">Location</string>
+    <string name="pref_settings">Preferences</string>
+    <string name="search_action">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="sort_action">Sort by</string>
+    <string name="sort_title">By title</string>
+    <string name="sort_dateScheduled">By date Scheduled</string>
+    <string name="sort_dateModified">By date modified</string>
+    <string name="desc">This is a simple Task Reminder App developed by Sable</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_description">move to the previous page</string>
+
+    <string name="string_dummy_text">A city boy that can never say never got the life but the girl bites like a wolf</string>
+    <string name="string_dummy_date_numbers">12/27/16 12:42</string>
+    <string name="string_dummy_date_text1">Date Created:   Wednesday, April 14, 2012 at 04:20 AM</string>
+    <string name="string_dummy_date_text">Date Scheduled:   Wednesday, April 6, 2013 at 12:42 AM</string>
+    <string name="string_dummy_time_text">12:42 AM</string>
+
+    <string name="rem_title">Title</string>
+    <string name="rem_body">Body</string>
+    <string name="rem_date">Date</string>
+    <string name="rem_time">Time</string>
+    <string name="action_save">Save</string>
+    <string name="search_hint">Search Reminders</string>
+
+    <string name="show_comp">Show Completed</string>
+    <string name="hide_comp">Hide Completed</string>
+
+
+    <string name="pref_title_1">DISPLAY SETTINGS</string>
+
+    <string name="pref_fullscreen_title">Fullscreen Mode \t</string>
+    <string name="pref_fullscreen_summary">Hide all screen decorations (such as the status bar) while in the app\t</string>
+    <string name="pref_fullscreen_summary_on">Fullscreen mode set, status bar and other decorations have been hidden\t</string>
+
+    <string name="pref_screenon_title">Keep Screen On \t</string>
+    <string name="pref_screenon_summary">As long as this app is visible, keep the device screen turned on and bright\t</string>
+    <string name="pref_screenon_summary_on">Screen state changed, display will not turn off\t</string>
+
+    <string name="pref_title2">OTHER SETTINGS</string>
+
+    <string name="pref_keyguard_title">Dismiss Keyguard \t</string>
+    <string name="pref_keyguard_summary">When set the app will cause the keyguard to be dismissed, only if it is not a secure lock keyguard\t</string>
+    <string name="pref_keyguard_summary_On">Non secure Keyguard is dismissed\t</string>
+
+    <string name="pref_secure_title">Secure Content \t</string>
+    <string name="pref_secure_summary">Treat the content of the app as secure, preventing it from appearing in screenshots or from being viewed on non-secure displays</string>
+    <string name="pref_secure_summary_on">Screen contents are now secure, screen shots are no longer allowed (May not work in all devices)</string>
+
+
+    <string name="pref_nav_title">Navigation Bar \t</string>
+    <string name="pref_nav_summary">Request a translucent navigation bar with minimal system-provided background protection</string>
+
+
+    <string name="pref_animation_title">Animate Windows \t</string>
+    <string name="pref_animation_summary">Define a custom animation used for this app windows, while switching screens</string>
+
+
+    <string name="pref_enable_animation_title">Enable window animation \t</string>
+    <string name="pref_enable_animation_summary_off">Enable window animation while switching displays within the app</string>
+    <string name="pref_enable_animation_summary_on">Window animations will from now on be shown</string>
+
+    <string name="pref_choose_anim">Choose A Window Animation \t</string>
+    <string name="pref_choose_summary">"Crossfade(i.e. fade in or out following a rotation), Jumpcut(i.e. immediately disappear or appear following a rotation), Rotate(i.e. rotate in or out following a rotation)"</string>
+    <string name="pref_choose_anim_dialog">Pick the animation that you want: \t</string>
+
+    <string name="pref_title3">ABOUT APP</string>
+
+    <string name="pref_info_title">Profile Info \t</string>
+    <string name="pref_info_summary">Life Reminder Version %1$s has been developed by Frankline Sable. You can contact him via Google-Mail at franklinesable@gmail.com (Feedback only)\t</string>
+    <string name="title_activity_reminder_view">View Reminder</string>
+    <string name="title_activity_reminder_edit">Create Reminder</string>
+    <string name="title_activity_help">helpActivity</string>
+    <string name="helpAction">Help</string>
+    <string name="splash_version">Version 21.07.16</string>
+    <string name="nav_header_icon">Life Reminder Maseno University</string>
+    <string name="institution_email">masenouniversity@kenya.ac.ke</string>
+    <string name="add_location">Add reminder location</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_erase">Erase</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_about">About</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+    <string name="orange">orange color</string>
+    <string name="red">red color</string>
+    <string name="brown">brown color</string>
+    <string name="yellow">yellow color</string>
+    <string name="blue">blue color</string>
+    <string name="green">green color</string>
+    <string name="purple">purple color</string>
+    <string name="version_label">"Version "</string>
+    <string name="action_favourite">Add to favourite</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_notification_reminder_complete">Reminder completed notifications</string>
+    <string name="pref_title_ringtone">Notification Sound</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_favourites__lists">Favourites_Lists</string>
+    <string name="title_activity_favourite_reminders">My Favourite Reminders</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="about_text">
+        "\nRelease\n
+        Life reminder Epic was first released was on June 6th 2016, then very few features were
+        implemented (was quite primitive). Honestly the initial release had a lot of bugs. Until
+        the end of July is when we started working on this final release. All thanks to the leading
+        contributor, Marvel Ace who worked hard in making the app more stable and many adding advanced
+        features to the apps api (Application Programming Interface). This being the final version,
+        we promise you that its absolutely stable and we can predict with certainty
+        that it won’t cause you any problems.
+        \nDevelopers\n
+        It was first developed by Frankline Sable, whilst at home during the break from the
+        university and it was further developed by Marvel Ace from Nairobi university. App
+        Translations was solely carried out by Haywire ledge who had recently graduated from
+        High school and is currently awaiting to join collage this year.
+        \nBenefits\n
+        Why do you need Life Reminder? Life reminder being a task reminder, helps you manage your
+        time and activities appropriately thus acts as planner, cause its enables you to schedule
+        upcoming events in an easy and very user friendly way. Still it is likely to make your day
+        to day activities easier and requires less effort Since it’s all about saving an event, sit
+        back and relax and forget all about it, and when the time comes for that you’ll be notified
+        (Trust me ノ (º _ ºノ)).
+        \nFurther Details\n
+        Life Reminder has been developed especially for young people (teens) in high school and
+        college level, in order to help them manage their time and life activities very efficiently.
+        This is because many a times, most young people have difficulty in time management and they
+        are also involved in a lot of things, thus this app would come in handy as it helps them
+        manage their activities more appropriately. Even though this might not be the coolest nor the
+        brightest task reminder app, we promise you that it will never ever let you down, and it
+        will always be there, ready to help you remember something that's critical (or nah) in your
+        life ( hence: ""\"Life Reminder""\" ). \n
+        The app has been tested in more than a dozens of different android devices, if you have any
+        problems with the app, feel free to contact us at:
+                                        lifereminder@gmail.com."
+</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+
+    <string name="action_reply">Reply</string>
+
+    <string name="title_and_description">Life Reminder: %1$s</string>
+    <string name="snooze_title">Snooze interval</string>
+    <string name="pending">Pending</string>
+    <string name="complete">Complete</string>
+    <string name="deleted">deleted</string>
+    <string name="appleFont">fonts/Helvetica Neue Light (Open Type).ttf</string>
+    <string name="view_info">view info</string>
+    <string name="sd_permission_denied">"Please enable SDCARD write permission inorder to use this service "</string>
+    <string name="share_capture">Share screenshot with which app?</string>
+    <string name="no_sdcard">External Storage not available!</string>
+    <string name="error">Error!</string>
+    <string name="ticker_text">Schedule Complete</string>
+
+    <string-array name="pref_look_and_feel">
+        <item>Dark Theme</item>
+        <item>Light Theme</item>
+    </string-array>
+
+    <string-array name="pref_look_and_feel_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="pref_snooze_interval_titles">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_snooze_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>-1</item>
+    </string-array>
+
+
+
+
+    <string-array name="animation_array">
+
+        <item>Fade</item>
+        <item>Rotate</item>
+        <item>Translate</item>
+
+    </string-array>
+
+    <string-array name="animation_values">
+
+        <item>32</item>
+        <item>43</item>
+        <item>69</item>
+
+    </string-array>
+
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <string name="title_activity_content_provider">content_providerActi</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="no_match">No match found!</string>
+    <string name="shareReminder">Which app should handle this?</string>
+
+        <string name="help_anim_display">
+            All the world\'s a stage,\n
+And all the men and women merely players;\n
+They have their exits and their entrances,\n
+And one man in his time plays many parts,\n
+His acts being seven ages. At first, the infant,\n
+Mewling and puking in the nurse\'s arms.\n
+Then the whining schoolboy, with his satchel\n
+And shining morning face, creeping like snail\n
+Unwillingly to school. And then the lover,\n
+Sighing like furnace, with a woeful ballad\n
+Made to his mistress\' eyebrow. Then a soldier,\n
+Full of strange oaths and bearded like the pard,\n
+Jealous in honor, sudden and quick in quarrel,\n
+Seeking the bubble reputation\n
+Even in the cannon\'s mouth. And then the justice,\n
+In fair round belly with good capon lined,\n
+With eyes severe and beard of formal cut,\n
+Full of wise saws and modern instances;\n
+And so he plays his part. The sixth age shifts\n
+Into the lean and slippered pantaloon,\n
+With spectacles on nose and pouch on side;\n
+His youthful hose, well saved, a world too wide\n
+For his shrunk shank, and his big manly voice,\n
+Turning again toward childish treble, pipes\n
+And whistles in his sound. Last scene of all,\n
+That ends this strange eventful history,\n
+Is second childishness and mere oblivion,\n
+Sans teeth, sans eyes, sans taste, sans everything.\n
+
+    </string>
+    <string name="tts">reader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchText">Find which reminder</string>
+    <string name="empty">" "</string>
+    <string name="rem_desc">Enter the reminder description</string>
+    <string name="chooseImg">Choose a reminder image:</string>
+    <string name="image_outline">image outline</string>
+    <string name="change_def_Image">Click to change default image</string>
+    <string name="enter_Details">Enter reminder details here(optional)…</string>
+    <string name="set_dateTime">Set Date And Time</string>
+    <string name="extra_opt">Other Options</string>
+    <string name="set_priority">Set Priority</string>
+    <string name="rem_repeat">Set Repeat</string>
+    <string name="default_RepeatTxt">Never</string>
+    <string name="exp_img">Expanded Image</string>
+    <string name="cam">Camera</string>
+    <string name="imp">Import</string>
+    <string name="remove_Img">Remove</string>
+    <string name="edit_info">edit existing reminder</string>
+    <string name="create_Info">create a new reminder</string>
+    <string name="regInfo">Regular Reminder info</string>
+    <string name="dueDate">Date Due: Wednesday, April 6, 2013 at 12:42 AM</string>
+    <string name="repeating_every_yearly">Repeating every Yearly:</string>
+</resources>

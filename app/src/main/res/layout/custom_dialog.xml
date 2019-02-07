@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/location_diag_texture"
+        android:contentDescription="@string/add_location"
+        android:id="@+id/dialog_title_background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_title"
+        android:textSize="20sp"
+        style="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/dialog_test"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@mipmap/ic_location_icon"
+        android:drawableRight="@mipmap/ic_location_icon"
+        android:id="@+id/error_location_icon"
+        />
+    <EditText
+        android:id="@+id/location"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#0095B7"
+        android:hint="@string/dialog_hint"/>
+
+
+</LinearLayout>

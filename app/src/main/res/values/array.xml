@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anime_array">
+
+        <item>Crossfade</item>
+        <item>Jumpcut</item>
+        <item>Rotate</item>
+
+    </string-array>
+
+    <string-array name="anime_values">
+        <item>32</item>
+        <item>43</item>
+        <item>69</item>
+    </string-array>
+
+</resources>

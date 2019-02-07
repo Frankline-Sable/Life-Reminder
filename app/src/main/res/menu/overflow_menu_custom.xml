@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/album_overflow_rename"
+        android:icon="@drawable/create_new_52px"
+        android:title="Create Reminder" />
+
+    <item
+        android:id="@+id/album_overflow_lock"
+        android:icon="@drawable/services_48px"
+        android:title="Preferences" />
+
+    <item
+        android:id="@+id/album_overflow_unlock"
+        android:icon="@drawable/help_48px"
+        android:title="Help" />
+
+
+</menu>
+
